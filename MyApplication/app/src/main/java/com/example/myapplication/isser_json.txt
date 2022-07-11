@@ -1,0 +1,94 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "did",
+				"type": "string"
+			}
+		],
+		"name": "getDidExpireDoc",
+		"outputs": [
+			{
+				"internalType": "string[]",
+				"name": "",
+				"type": "string[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "did",
+				"type": "string"
+			}
+		],
+		"name": "getDidserialDoc",
+		"outputs": [
+			{
+				"internalType": "string[]",
+				"name": "",
+				"type": "string[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "did",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "serialNum",
+				"type": "string"
+			}
+		],
+		"name": "moveDocExpire",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "did",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "serialNum",
+				"type": "string"
+			}
+		],
+		"name": "moveDocSerial",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "did",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "serialDocNum",
+				"type": "string"
+			}
+		],
+		"name": "setDidSerialDoc",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]
